@@ -1,0 +1,122 @@
+body{
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.topline{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.topline p{
+  float: left;
+  text-align: center;
+  font-size: 18px;
+}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.topline .col-md-8{
+  text-align: center;
+}
+#top{
+  background-color:#2e2e2e;
+  color: white;
+  text-align: center; 
+  font-weight: bold;
+}
+.button{
+	background-color: yellow;
+	width: 50%;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #2e2e2e;
+	transition: transform 1s linear 0s, background-color 1s ease 0s, color 1s ease 0s, all 1s ease 0s;
+	-webkit-transition: transform 1s linear 0s, background-color 1s ease 0s, color 1s ease 0s, all 1s ease 0s;
+	-moz-transition: -moz-transform 1s linear 0s, background-color 1s ease 0s, color 1s ease 0s, all 1s ease 0s;
+	-ms-transition: transform 1s linear 0s, background-color 1s ease 0s, color 1s ease 0s, all 1s ease 0s;
+	-o-transition: transform 1s linear 0s, background-color 1s ease 0s, color 1s ease 0s, all 1s ease 0s;
+	cursor: pointer;
+}
+.button:hover{
+  background-color: #2e2e2e;
+  border: solid 1px yellow;
+  color: yellow;
+  transform: translate(5px);
+}
+#menu{
+	padding-top:4%;
+	padding-bottom:4%;
+	}
+#menu ul li
+{
+	display:flex;
+	
+	text-align:center;
+	
+	padding-left: 1em;
+	padding-right:1em;
+	height: 3em;
+	padding-top:1em;
+	padding-bottom:1em;
+	}
+#menu ul li a{
+	display:flex;
+
+	color:#00C;
+	cursor: pointer;
+	}
+#menu ul li:hover{
+	display:flex;
+	color:#FFF;
+	cursor: pointer;
+	background-color:#00C;
+	}
+	
+	.setValue {
+            width: 600px;
+            height: 400px;
+        }
+		
+.blueHead{
+	background-color:#00C;
+	padding-top:2em;
+	padding-bottom:2em;
+	font-size:large;
+	color: white;
+	font-weight:800;
+	text-align:center;
+	}
+
+.about
+{
+	transition: transform 0.5s;
+}
+.about:hover
+{
+	transform:translateY(-10px);
+}
+.btnbuy
+{
+	background-color: #00C;
+	width: 50%;
+	border: solid 1px white;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #FFF;
+	transition: transform 1s linear 0s, background-color 1s ease 0s, color 1s ease 0s, all 1s ease 0s;
+	-webkit-transition: transform 1s linear 0s, background-color 1s ease 0s, color 1s ease 0s, all 1s ease 0s;
+	-moz-transition: -moz-transform 1s linear 0s, background-color 1s ease 0s, color 1s ease 0s, all 1s ease 0s;
+	-ms-transition: transform 1s linear 0s, background-color 1s ease 0s, color 1s ease 0s, all 1s ease 0s;
+	-o-transition: transform 1s linear 0s, background-color 1s ease 0s, color 1s ease 0s, all 1s ease 0s;
+	cursor: pointer;
+	height:3em;
+}
+.btnbuy:hover
+{
+  background-color: #FFF;
+  border: solid 1px #00C;
+  color: #00C;
+  transform: translate(5px);
+}
